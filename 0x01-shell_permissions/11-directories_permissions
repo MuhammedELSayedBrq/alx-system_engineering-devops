@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%s\n' 'chmod 644 file1 file2 file3' 'chmod 755 dir1 dir2 dir3' | sh
+chmod -R +X .
