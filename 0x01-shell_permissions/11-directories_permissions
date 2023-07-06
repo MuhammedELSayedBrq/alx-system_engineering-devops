@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -exec chmod a+x {} \;
+ls -d1 */ | awk '{print "chmod ugo+x \""$0"\";"}' | sh
